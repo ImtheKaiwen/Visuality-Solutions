@@ -1,4 +1,7 @@
-# 10. Ondalık Sayıyı İkili, Sekizli ve Onaltılı Sayıya Dönüştüren Python Programı
+# Python program to convert decimal into other number systems
+dec = 344
 
-while True:
-    number = int(input(number))
+print("The decimal value of", dec, "is:")
+print(bin(dec), "in binary.")
+print(oct(dec), "in octal.")
+print(hex(dec), "in hexadecimal.")
